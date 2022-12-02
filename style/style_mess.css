@@ -1,0 +1,72 @@
+.car_driving_block {
+    width: 100px;
+    height: 80px;
+    position: relative;
+    animation-name: car;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.car {
+    width: 100%;
+    height: 100%;
+}
+.ani_block {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+}
+
+@keyframes car {
+    0% {left: 100px;top: 0;}
+    100% {left: 1000px;top: 0;}
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background: url(../img/imageform11.jpegj); 
+        font-family: 'Montserrat', sans-serif;
+        height: 100vh;
+}
+.come_back {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #3B97D4;
+}
+.come_back:hover {
+    color: rgb(40, 39, 39);
+}
+.error_thanks {
+    width: 100%;
+    height: 100%;
+}
+.animation_block {
+    margin: 70px auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+.logo_pic {
+    max-width: 100px;
+}
+.message_type {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px auto;
+}
